@@ -1,0 +1,7 @@
+{% extends 'layout.html' %}
+    <% block title %>Browse Books!<% endblock %>
+
+    {% block content %}
+        <p>{{book.title}} - {{book.description}} - {{book.release_year}}</p>
+    {% endblock%}
+
